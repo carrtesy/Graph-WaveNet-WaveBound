@@ -22,3 +22,22 @@ python generate_training_data.py --output_dir=data/PEMS-BAY --traffic_df_filenam
 ```
 python train.py --gcn_bool --adjtype doubletransition --addaptadj  --randomadj
 ```
+
+## Quantitative Results
+
+### METR-LA
+| STEPS           | 15min      |            |            | 30min      |            |            | 60min      |            |            |
+|-----------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|
+| Metrics         | MAE        | RMSE       | MAPE       | MAE        | RMSE       | MAPE       | MAE        | RMSE       | MAPE       |
+| GWNet           |   2.6998   |   5.1684   |   0.0693   |   3.0966   |   6.2413   |   0.0837   |   3.5812   |   7.4361   |   0.1010   |
+| GWNet+WaveBound | **2.6703** | **5.1104** | **0.0691** | **3.0313** | **6.1046** | **0.0832** | **3.4478** | **7.1474** | **0.0990** |
+
+### PEMS-BAY
+| STEPS           | 15min      |            |            | 30min      |            |            | 60min      |            |            |
+|-----------------|------------|------------|------------|------------|------------|------------|------------|------------|------------|
+| Metrics         | MAE        | RMSE       | MAPE       | MAE        | RMSE       | MAPE       | MAE        | RMSE       | MAPE       |
+| GWNet           |   1.3003   |   2.7225   |   0.0273   |   1.6171   |   3.6546   |   0.0364   |   1.9201   |   4.4375   |   0.0449   |
+| GWNet+WaveBound | **1.2917** | **2.7221** | **0.0269** | **1.6080** | **3.6538** | **0.0359** | **1.9045** | **4.4103** | **0.0449** |
+
+## Qualitative Results
+![cherry](fig/cherry.png)
