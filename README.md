@@ -1,6 +1,6 @@
 # WaveBound + GraphWaveNet
 
-Implementation of [WaveBound: Dynamic Error Bounds for Stable Time Series Forecasting (NeurIPS 2022)](https://arxiv.org/abs/2210.14303), applied to [Graph WaveNet for Deep Spatial-Temporal Graph Modeling, IJCAI 2019](https://arxiv.org/abs/1906.00121). This repo is officially provided as examplary code for applying WaveBound method to Traffic domain. To view WaveBound's official implementation, visit the [link-to-wavebound-github](https://github.com/choyi0521/WaveBound).
+Implementation of [WaveBound: Dynamic Error Bounds for Stable Time Series Forecasting (NeurIPS 2022)](https://arxiv.org/abs/2210.14303), applied to [Graph WaveNet for Deep Spatial-Temporal Graph Modeling, IJCAI 2019](https://arxiv.org/abs/1906.00121). This repo is officially provided as examplary code for applying WaveBound method to Traffic domain. To view WaveBound's official implementation, visit the [wavebound-github-repo](https://github.com/choyi0521/WaveBound).
 
 ## Data Preparation
 
